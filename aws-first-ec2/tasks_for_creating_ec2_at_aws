@@ -1,0 +1,8 @@
+1 add aws provider	region, security-key, access-key
+2 create instance 	ami , type, tag
+3 genarete key pair	use aws_key_pair code
+4 assign key pair to instance
+5 genarate security group
+6 assign security group to instance
+
+ssh -i id_rsa ubuntu@ip
