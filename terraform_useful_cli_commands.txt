@@ -34,3 +34,8 @@ terraform init --migrate-state		after commeting s3 backend code
 terraform dynamodb table for locking the tfstate file at s3 backend
 
 
+useful links;
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+
+
