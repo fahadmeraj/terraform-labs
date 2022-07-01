@@ -1,0 +1,8 @@
+terraform console	for printing and verifying variables in the current working dir
+terraform fmt 		for improving formating of code
+terraform taint aws_security_group.allow_tls 	it is not reccommended
+terraform apply --replace 		is more recommended
+userdata and provisioners is not recommended to use for running scripts
+use IaaC tool instead such as ansible
+
+if provisiner fails, terraform marks resource as tainted
