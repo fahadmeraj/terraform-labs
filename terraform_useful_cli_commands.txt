@@ -1,0 +1,41 @@
+terraform plan
+terraform providers
+terraform init
+
+ls -a before and after providers to check plugin has come
+
+file terraform-provider-github_4.19.0 	to check the language of file
+
+terraform apply --auto-approve 		then it will not ask for yes
+
+token 
+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
+
+terraform tfstate
+
+terraform destroy 
+terraform destroy --target firstlabel.secondlabel
+terraform destroy --target github_repository.terraform-fifth-repo
+
+terraform validate
+terraform refresh 	run after manually changing content on the repo or resource
+
+terraform show 		command to show more readable output of state file
+
+terraform output 	to print something
+
+terraform output --json 	after the entry has been made in the tfstate file 
+terraform output terraform-second-repo-url	just to print the url by calling the label of the block
+
+
+13-06-2022
+terraform init --migrate-state		after commeting s3 backend code
+
+terraform dynamodb table for locking the tfstate file at s3 backend
+
+
+useful links;
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+
+
