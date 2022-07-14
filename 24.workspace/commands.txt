@@ -1,0 +1,9 @@
+$ terraform workspace new dev
+$ terraform workspace new test
+$ terraform workspace list
+$ terraform workspace show
+terraform workspace list
+  default
+* test
+$ terraform workspace select default
+$ terraform workspace delete test
